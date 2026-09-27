@@ -23,3 +23,23 @@ def add_numbers(num1, num2):
 
 answer = add_numbers(1, 31)
 print("Answer:", answer)
+
+#Other examples
+
+def check_age(age):
+    if age >= 18:
+        return "Adult"
+    else:
+        return "Minor"
+
+print(check_age(20))
+
+def favorite_food(food):
+    print("My favorite food is " + food)
+
+favorite_food("Pizza")
+
+#Mistake that I made
+#At first, I thought that once I created function, it will run right away
+#I got confused when nothing showed up in the output
+#then I realized that I still need to call the functions using its name and parenthesis.

@@ -7,3 +7,19 @@
 #Argument -In Python, an argument is a value or object that you pass into a function or method when you call it. Arguments allow you to provide input data to the function so that it can perform its task.
 
 #Return Values - When a function returns a value, it's providing a piece of data back to the caller.
+
+#Example 1
+
+def greet(name):
+  print(Hello, + name)
+
+greet("Neil")
+
+Example 2
+
+def add_numbers(num1, num2):
+  total = num1 + num2
+  return total
+
+answer = add_numbers(1, 31)
+print("Answer:", answer)
